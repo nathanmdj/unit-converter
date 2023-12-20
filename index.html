@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="input-group">
+        <input type="text" id="input">
+        <select name="unit" id="unit">
+          <option value="m">m</option>
+          <option value="cm">cm</option>
+          <option value="mm">mm</option>
+          <option value="inch">inch</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <input type="text" id="display" disabled>
+        <select name="result-unit" id="result-unit">
+          <option value="m">m</option>
+          <option value="cm">cm</option>
+          <option value="mm">mm</option>
+          <option value="inch">inch</option>
+        </select>
+      </div>
+      
+      <div class="btn">
+        <button id="convert" onclick="convert()">Convert</button>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script src="convert_v3.js"></script>
+</body>
+</html>
